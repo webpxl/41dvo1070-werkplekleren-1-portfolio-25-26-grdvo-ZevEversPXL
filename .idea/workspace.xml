@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05465b6-7f4e-4d18-9ea6-27296e893bac" name="Changes" comment="H1 en H2 uitleg">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="c05465b6-7f4e-4d18-9ea6-27296e893bac" name="Changes" comment="fotos toegevoegd van designs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +84,7 @@
       <workItem from="1765361435793" duration="1795000" />
       <workItem from="1766222547591" duration="1133000" />
       <workItem from="1766255955885" duration="549000" />
-      <workItem from="1766256627488" duration="2194000" />
+      <workItem from="1766256627488" duration="2761000" />
     </task>
     <task id="LOCAL-00001" summary="eerste commit">
       <option name="closed" value="true" />
@@ -177,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766255902703</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fotos toegevoegd van designs">
+      <option name="closed" value="true" />
+      <created>1766259107631</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1766259107631</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +192,8 @@
     <MESSAGE value="eerste commit" />
     <MESSAGE value="tweede commit" />
     <MESSAGE value="H1 en H2 uitleg" />
-    <option name="LAST_COMMIT_MESSAGE" value="H1 en H2 uitleg" />
+    <MESSAGE value="fotos toegevoegd van designs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fotos toegevoegd van designs" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
