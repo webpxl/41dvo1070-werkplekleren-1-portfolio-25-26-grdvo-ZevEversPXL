@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05465b6-7f4e-4d18-9ea6-27296e893bac" name="Changes" comment="tweede commit">
+    <list default="true" id="c05465b6-7f4e-4d18-9ea6-27296e893bac" name="Changes" comment="H1 en H2 uitleg">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -23,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ZevEversPXL"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ZevEversPXL&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:webpxl/41dvo1070-werkplekleren-1-portfolio-25-26-grdvo-ZevEversPXL.git",
-    "accountId": "257f1398-da60-4946-9a51-a91794f78790"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:webpxl/41dvo1070-werkplekleren-1-portfolio-25-26-grdvo-ZevEversPXL.git&quot;,
+    &quot;accountId&quot;: &quot;257f1398-da60-4946-9a51-a91794f78790&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -85,7 +85,9 @@
       <workItem from="1764923101988" duration="2787000" />
       <workItem from="1764926005477" duration="683000" />
       <workItem from="1765361435793" duration="1795000" />
-      <workItem from="1766222547591" duration="882000" />
+      <workItem from="1766222547591" duration="1133000" />
+      <workItem from="1766255955885" duration="549000" />
+      <workItem from="1766256627488" duration="2194000" />
     </task>
     <task id="LOCAL-00001" summary="eerste commit">
       <option name="closed" value="true" />
@@ -167,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765362739294</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="H1 en H2 uitleg">
+      <option name="closed" value="true" />
+      <created>1766255902703</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1766255902703</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +186,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="eerste commit" />
     <MESSAGE value="tweede commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="tweede commit" />
+    <MESSAGE value="H1 en H2 uitleg" />
+    <option name="LAST_COMMIT_MESSAGE" value="H1 en H2 uitleg" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
