@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    background-color: red;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.zev {
+    width: clamp(40px, 5vw, 70px); /* schaalt mee met scherm */
+    aspect-ratio: 1 / 1;          /* altijd vierkant */
+    object-fit: cover;
+    border-radius: 50%;           /* haal weg als je geen cirkel wil */
+}
+main {
+    padding: 7% 5% 5% 5%;
+}
+
+img {
+    width: 20%;
+    height: auto;
+}

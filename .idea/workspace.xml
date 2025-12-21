@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05465b6-7f4e-4d18-9ea6-27296e893bac" name="Changes" comment="fotos toegevoegd van designs" />
+    <list default="true" id="c05465b6-7f4e-4d18-9ea6-27296e893bac" name="Changes" comment="foto test">
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -36,6 +41,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="363v6x0bw3gLNPqos8UukhGBXnc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,6 +58,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/zev/WPL github/41dvo1070-werkplekleren-1-portfolio-25-26-grdvo-ZevEversPXL&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -84,7 +93,8 @@
       <workItem from="1765361435793" duration="1795000" />
       <workItem from="1766222547591" duration="1133000" />
       <workItem from="1766255955885" duration="549000" />
-      <workItem from="1766256627488" duration="2761000" />
+      <workItem from="1766256627488" duration="5877000" />
+      <workItem from="1766323134617" duration="507000" />
     </task>
     <task id="LOCAL-00001" summary="eerste commit">
       <option name="closed" value="true" />
@@ -182,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766259107631</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="foto test">
+      <option name="closed" value="true" />
+      <created>1766259700519</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1766259700519</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +211,8 @@
     <MESSAGE value="tweede commit" />
     <MESSAGE value="H1 en H2 uitleg" />
     <MESSAGE value="fotos toegevoegd van designs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fotos toegevoegd van designs" />
+    <MESSAGE value="foto test" />
+    <option name="LAST_COMMIT_MESSAGE" value="foto test" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
