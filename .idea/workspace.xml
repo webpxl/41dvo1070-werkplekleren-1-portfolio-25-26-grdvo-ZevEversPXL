@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05465b6-7f4e-4d18-9ea6-27296e893bac" name="Changes" comment="foto test">
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    <list default="true" id="c05465b6-7f4e-4d18-9ea6-27296e893bac" name="Changes" comment="fotos mee comit">
+      <change afterPath="$PROJECT_DIR$/read.me" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +95,15 @@
       <workItem from="1766222547591" duration="1133000" />
       <workItem from="1766255955885" duration="549000" />
       <workItem from="1766256627488" duration="5877000" />
-      <workItem from="1766323134617" duration="507000" />
+      <workItem from="1766323134617" duration="1767000" />
+      <workItem from="1766572739899" duration="677000" />
+      <workItem from="1766578219494" duration="226000" />
+      <workItem from="1767098766019" duration="38000" />
+      <workItem from="1767624308487" duration="165000" />
+      <workItem from="1767788712178" duration="2000" />
+      <workItem from="1767788840299" duration="36000" />
+      <workItem from="1767789026574" duration="39000" />
+      <workItem from="1768141210087" duration="2844000" />
     </task>
     <task id="LOCAL-00001" summary="eerste commit">
       <option name="closed" value="true" />
@@ -200,7 +209,23 @@
       <option name="project" value="LOCAL" />
       <updated>1766259700519</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Fotos aangevuld bij html, gestart met vormgeving CSS, alles responsive behouden.">
+      <option name="closed" value="true" />
+      <created>1766323705218</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1766323705218</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fotos mee comit">
+      <option name="closed" value="true" />
+      <created>1766578398485</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1766578398485</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +237,9 @@
     <MESSAGE value="H1 en H2 uitleg" />
     <MESSAGE value="fotos toegevoegd van designs" />
     <MESSAGE value="foto test" />
-    <option name="LAST_COMMIT_MESSAGE" value="foto test" />
+    <MESSAGE value="Fotos aangevuld bij html, gestart met vormgeving CSS, alles responsive behouden." />
+    <MESSAGE value="fotos mee comit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fotos mee comit" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

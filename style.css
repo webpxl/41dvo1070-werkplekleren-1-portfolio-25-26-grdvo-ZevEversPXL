@@ -5,16 +5,21 @@
     font-family: Arial, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: black;
+    background-color: #0f0f0f;
     color: white;
 }
 
-nav {
+header nav {
     background-color: red;
-    padding: 5px;
     position: fixed;
+    top: 0;
     width: 100%;
+    z-index: 100;
 }
 
 nav ul {
@@ -23,22 +28,74 @@ nav ul {
     justify-content: space-around;
     gap: 1rem;
     list-style: none;
-    padding: 0;
+    padding: 10px;
     margin: 0;
+}
+
+nav a {
     color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 .zev {
-    width: clamp(40px, 5vw, 70px); /* schaalt mee met scherm */
-    aspect-ratio: 1 / 1;          /* altijd vierkant */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
     object-fit: cover;
-    border-radius: 50%;           /* haal weg als je geen cirkel wil */
-}
-main {
-    padding: 7% 5% 5% 5%;
+    object-position: top;
 }
 
-img {
-    width: 20%;
+main {
+    padding: 120px 5% 5%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+h2 {
+    max-width: 800px;
+    margin: 4rem auto 1rem auto;
+    scroll-margin-top: 140px;
+}
+
+p {
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+    line-height: 1.6;
+}
+
+.Logo, .attributes, .flat, .kleding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+}
+
+.Logo img, .attributes img, .flat img, .kleding img {
+    width: 250px;
     height: auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    p,
+    h2 {
+        max-width: 100%;
+    }
 }
