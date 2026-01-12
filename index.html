@@ -8,12 +8,12 @@
 </head>
 <body>
 
-<header>
+<header id="top">
     <nav>
         <button class="menu-toggle">☰</button>
         <ul>
             <li><img class="zev" src="img/zev.jpg" alt="zev"></li>
-            <li>Zev Evers</li>
+            <li><a href="#top">Zev Evers</a></li>
             <li><a href="#logo">Logo Design</a></li>
             <li><a href="#attributes">Profile Attributes</a></li>
             <li><a href="#flat">Flat Design</a></li>
@@ -38,9 +38,11 @@
     <h2 id="logo">Logo Design</h2>
     <p>Logo design is de soort kunst waar ik mijn klik heb gevonden voor het ontwerpen, van een schets tot een
         digitaal
-        ontwerp is de mooiste vorm van ontwerpen voor mij. Hieronder zie je wat uitgewerkte logos die ik heb
+        ontwerp is de mooiste vorm van ontwerpen voor mij. Hieronder zie je wat uitgewerkte logo's die ik heb
         ontworpen
-        door de jaren heen.</p>
+        als student. De logo's aan de buitenzijden zijn de logo's voor een bedrijf genaamd Breakpoint Security, het
+        linkse logo is het bedrijfslogo en het rechtse logo is voor een van de diensten genaamd Cloudsecurity. Het
+        middelste logo is voor een Call of Duty esports team.</p>
     <div class="Logo">
         <img src="img/bps.png" alt="Breakpoint Security Logo">
         <img src="img/bsx.png" alt="Brussels Syntax Logo">
@@ -48,7 +50,8 @@
     </div>
 
     <h2 id="attributes">Profile Attributes</h2>
-    <p>Dit is wel een leuk weetje van mij! Hier gaan we het verhaal in van Team Syntax, het logo wat je hierboven ook al zag met de vleugels is het logo
+    <p>Dit is wel een leuk weetje van mij! Hier gaan we het verhaal in van Team Syntax, het logo wat je hierboven ook al
+        zag met de vleugels is het logo
         van
         Brussels Syntax, het Call of Duty team van de organisatie Team Syntax. natuurlijk moeten spelers ook
         uitgerust
@@ -87,11 +90,13 @@
 
     toggle.addEventListener('click', () => {
         menu.classList.toggle('active');
+        toggle.textContent = menu.classList.contains('active') ? '✕' : '☰';
     });
 
     document.querySelectorAll('nav a').forEach(link => {
         link.addEventListener('click', () => {
             menu.classList.remove('active');
+            toggle.textContent = '☰';
         });
     });
 </script>

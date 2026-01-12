@@ -100,11 +100,12 @@ p {
     margin-bottom: 4rem;
 }
 
+/* 👇 LOGO'S IETS KLEINER */
 .Logo img,
 .attributes img,
 .flat img,
 .kleding img {
-    width: 250px;
+    width: 220px;
     height: auto;
     max-width: 100%;
     border-radius: 8px;
@@ -156,6 +157,7 @@ p {
         scroll-margin-top: 140px;
     }
 
+    /* mobiel: groot genoeg laten */
     .Logo img,
     .attributes img,
     .flat img,
