@@ -10,16 +10,17 @@ html {
 }
 
 body {
-    background-color: #0f0f0f;
-    color: white;
+    background-color: #ffffff;
+    color: #111111;
 }
 
 header nav {
-    background-color: red;
+    background-color: #ffffff;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 100;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -32,8 +33,12 @@ nav ul {
     margin: 0;
 }
 
+nav li {
+    color: #111111;
+}
+
 nav a {
-    color: white;
+    color: #111111;
     text-decoration: none;
 }
 
@@ -72,7 +77,10 @@ p {
     line-height: 1.6;
 }
 
-.Logo, .attributes, .flat, .kleding {
+.Logo,
+.attributes,
+.flat,
+.kleding {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,11 +89,16 @@ p {
     margin-bottom: 4rem;
 }
 
-.Logo img, .attributes img, .flat img, .kleding img {
+.Logo img,
+.attributes img,
+.flat img,
+.kleding img {
     width: 250px;
     height: auto;
     max-width: 100%;
     border-radius: 8px;
+    background-color: darkgray;
+    padding: 14px;
 }
 
 @media (max-width: 768px) {
