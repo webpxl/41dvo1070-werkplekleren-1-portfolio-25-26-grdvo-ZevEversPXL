@@ -20,7 +20,8 @@ header nav {
     top: 0;
     width: 100%;
     z-index: 100;
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    border-bottom: 3px solid #1e4ed8;
 }
 
 .menu-toggle {
@@ -32,6 +33,7 @@ header nav {
     cursor: pointer;
     position: relative;
     z-index: 1001;
+    color: #1e4ed8;
 }
 
 nav ul {
@@ -51,10 +53,11 @@ nav li {
 nav a {
     color: #111111;
     text-decoration: none;
+    padding-bottom: 4px;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: #1e4ed8;
 }
 
 .zev {
@@ -80,6 +83,9 @@ h2 {
     max-width: 800px;
     margin: 4rem auto 1rem auto;
     scroll-margin-top: 140px;
+    color: #1e4ed8;
+    padding-bottom: 6px;
+    border-bottom: 3px solid #c7d2fe;
 }
 
 p {
@@ -100,7 +106,6 @@ p {
     margin-bottom: 4rem;
 }
 
-/* 👇 LOGO'S IETS KLEINER */
 .Logo img,
 .attributes img,
 .flat img,
@@ -109,8 +114,27 @@ p {
     height: auto;
     max-width: 100%;
     border-radius: 8px;
-    background-color: #e0e0e0;
+    background-color: #dbe4ff;
     padding: 14px;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    nav ul {
+        justify-content: space-between;
+        padding: 10px 30px;
+    }
+
+    p,
+    h2 {
+        max-width: 700px;
+    }
+
+    .Logo img,
+    .attributes img,
+    .flat img,
+    .kleding img {
+        width: 200px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -157,7 +181,6 @@ p {
         scroll-margin-top: 140px;
     }
 
-    /* mobiel: groot genoeg laten */
     .Logo img,
     .attributes img,
     .flat img,

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05465b6-7f4e-4d18-9ea6-27296e893bac" name="Changes" comment="media query voor mobiel, hamburgermenu">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="c05465b6-7f4e-4d18-9ea6-27296e893bac" name="Changes" comment="media query voor mobiel, hamburgermenu, css aanpassingen">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +102,7 @@
       <workItem from="1767788840299" duration="36000" />
       <workItem from="1767789026574" duration="39000" />
       <workItem from="1768141210087" duration="3333000" />
-      <workItem from="1768214572519" duration="2109000" />
+      <workItem from="1768214572519" duration="3859000" />
     </task>
     <task id="LOCAL-00001" summary="eerste commit">
       <option name="closed" value="true" />
@@ -247,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768216677297</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="media query voor mobiel, hamburgermenu, css aanpassingen">
+      <option name="closed" value="true" />
+      <created>1768217082447</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1768217082447</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +273,8 @@
     <MESSAGE value="CSS centering en foto's juiste grote, scroll animatie als je met de nav werkt" />
     <MESSAGE value="kleuren aangepast website, duidelijker en mooier" />
     <MESSAGE value="media query voor mobiel, hamburgermenu" />
-    <option name="LAST_COMMIT_MESSAGE" value="media query voor mobiel, hamburgermenu" />
+    <MESSAGE value="media query voor mobiel, hamburgermenu, css aanpassingen" />
+    <option name="LAST_COMMIT_MESSAGE" value="media query voor mobiel, hamburgermenu, css aanpassingen" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
