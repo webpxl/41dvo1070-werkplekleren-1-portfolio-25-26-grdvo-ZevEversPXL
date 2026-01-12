@@ -23,6 +23,17 @@ header nav {
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
 }
 
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    padding: 15px 20px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1001;
+}
+
 nav ul {
     display: flex;
     align-items: center;
@@ -97,18 +108,59 @@ p {
     height: auto;
     max-width: 100%;
     border-radius: 8px;
-    background-color: darkgray;
+    background-color: #e0e0e0;
     padding: 14px;
 }
 
 @media (max-width: 768px) {
-    nav ul {
-        flex-wrap: wrap;
-        justify-content: center;
+    .menu-toggle {
+        display: block;
+        position: fixed;
+        top: 10px;
+        left: 10px;
     }
 
-    p,
+    nav ul {
+        position: fixed;
+        top: 0;
+        left: -260px;
+        width: 260px;
+        height: 100vh;
+        background-color: #ffffff;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 80px 20px;
+        gap: 1.2rem;
+        box-shadow: 2px 0 12px rgba(0, 0, 0, 0.15);
+        transition: left 0.3s ease;
+        z-index: 1000;
+    }
+
+    nav ul.active {
+        left: 0;
+    }
+
+    nav li {
+        width: 100%;
+    }
+
+    nav a {
+        font-size: 1.1rem;
+    }
+
+    main {
+        padding: 120px 5% 5%;
+    }
+
     h2 {
-        max-width: 100%;
+        scroll-margin-top: 140px;
+    }
+
+    .Logo img,
+    .attributes img,
+    .flat img,
+    .kleding img {
+        width: 100%;
+        max-width: 320px;
     }
 }

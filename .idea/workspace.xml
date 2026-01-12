@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05465b6-7f4e-4d18-9ea6-27296e893bac" name="Changes" comment="CSS centering en foto's juiste grote, scroll animatie als je met de nav werkt">
+    <list default="true" id="c05465b6-7f4e-4d18-9ea6-27296e893bac" name="Changes" comment="kleuren aangepast website, duidelijker en mooier">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +103,7 @@
       <workItem from="1767788840299" duration="36000" />
       <workItem from="1767789026574" duration="39000" />
       <workItem from="1768141210087" duration="3333000" />
-      <workItem from="1768214572519" duration="300000" />
+      <workItem from="1768214572519" duration="1752000" />
     </task>
     <task id="LOCAL-00001" summary="eerste commit">
       <option name="closed" value="true" />
@@ -232,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768144539129</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="kleuren aangepast website, duidelijker en mooier">
+      <option name="closed" value="true" />
+      <created>1768215118880</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1768215118880</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +256,8 @@
     <MESSAGE value="Fotos aangevuld bij html, gestart met vormgeving CSS, alles responsive behouden." />
     <MESSAGE value="fotos mee comit" />
     <MESSAGE value="CSS centering en foto's juiste grote, scroll animatie als je met de nav werkt" />
-    <option name="LAST_COMMIT_MESSAGE" value="CSS centering en foto's juiste grote, scroll animatie als je met de nav werkt" />
+    <MESSAGE value="kleuren aangepast website, duidelijker en mooier" />
+    <option name="LAST_COMMIT_MESSAGE" value="kleuren aangepast website, duidelijker en mooier" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

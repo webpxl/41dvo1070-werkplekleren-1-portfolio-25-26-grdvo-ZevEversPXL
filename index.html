@@ -10,6 +10,7 @@
 
 <header>
     <nav>
+        <button class="menu-toggle">☰</button>
         <ul>
             <li><img class="zev" src="img/zev.jpg" alt="zev"></li>
             <li>Zev Evers</li>
@@ -79,6 +80,21 @@
         <img src="img/jersey2.jpg" alt="jersey 2">
     </div>
 </main>
+
+<script>
+    const toggle = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('nav ul');
+
+    toggle.addEventListener('click', () => {
+        menu.classList.toggle('active');
+    });
+
+    document.querySelectorAll('nav a').forEach(link => {
+        link.addEventListener('click', () => {
+            menu.classList.remove('active');
+        });
+    });
+</script>
 
 </body>
 </html>
