@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05465b6-7f4e-4d18-9ea6-27296e893bac" name="Changes" comment="portfolio map">
-      <change afterPath="$PROJECT_DIR$/portfolio.css" afterDir="false" />
+    <list default="true" id="c05465b6-7f4e-4d18-9ea6-27296e893bac" name="Changes" comment="portfolio map, css toevoeging">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -105,7 +103,7 @@
       <workItem from="1767789026574" duration="39000" />
       <workItem from="1768141210087" duration="3333000" />
       <workItem from="1768214572519" duration="5689000" />
-      <workItem from="1768260752987" duration="2595000" />
+      <workItem from="1768260752987" duration="3995000" />
     </task>
     <task id="LOCAL-00001" summary="eerste commit">
       <option name="closed" value="true" />
@@ -275,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768231223370</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="portfolio map, css toevoeging">
+      <option name="closed" value="true" />
+      <created>1768314919369</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1768314919369</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +301,8 @@
     <MESSAGE value="media query voor mobiel, hamburgermenu, css aanpassingen" />
     <MESSAGE value="css aanpassingen en tablet versie" />
     <MESSAGE value="portfolio map" />
-    <option name="LAST_COMMIT_MESSAGE" value="portfolio map" />
+    <MESSAGE value="portfolio map, css toevoeging" />
+    <option name="LAST_COMMIT_MESSAGE" value="portfolio map, css toevoeging" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
