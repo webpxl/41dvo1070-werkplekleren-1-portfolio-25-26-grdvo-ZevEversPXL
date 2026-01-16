@@ -94,10 +94,7 @@ p {
     line-height: 1.6;
 }
 
-.Logo,
-.attributes,
-.flat,
-.kleding {
+.Logo, .attributes, .flat, .kleding {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,10 +103,7 @@ p {
     margin-bottom: 4rem;
 }
 
-.Logo img,
-.attributes img,
-.flat img,
-.kleding img {
+.Logo img, .attributes img, .flat img, .kleding img {
     width: 220px;
     height: auto;
     max-width: 100%;
@@ -129,10 +123,7 @@ p {
         max-width: 700px;
     }
 
-    .Logo img,
-    .attributes img,
-    .flat img,
-    .kleding img {
+    .Logo img, .attributes img, .flat img, .kleding img {
         width: 200px;
     }
 }
@@ -181,10 +172,7 @@ p {
         scroll-margin-top: 140px;
     }
 
-    .Logo img,
-    .attributes img,
-    .flat img,
-    .kleding img {
+    .Logo img, .attributes img, .flat img, .kleding img {
         width: 100%;
         max-width: 320px;
     }
